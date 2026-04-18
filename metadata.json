@@ -1,0 +1,6 @@
+{
+  "name": "SafeRoute",
+  "description": "A public safety navigation system that suggests risk-aware routes and alerts users to high-risk areas.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}
