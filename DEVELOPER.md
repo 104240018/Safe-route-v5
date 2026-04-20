@@ -51,14 +51,16 @@ This document provides a technical overview of the SafeRoute architecture, routi
 │       │   ├── useEnvironment.ts  # Sim environment monitoring
 │       │   ├── useGeofencing.ts   # Geofence threshold monitoring
 │       │   ├── useRouting.ts      # Pathfinding and grid lifecycle
-│       │   └── useSimulation.ts   # Navigation playback engine
+│       │   ├── useSimulation.ts   # Navigation playback engine
+│       │   └── useUiTheme.ts      # UI theme hook
 │       ├── systems/            # Client-side domain logic
 │       │   ├── environment.ts     # Env state transition logic
 │       │   ├── geofencing.ts      # Spatial intersection checks
 │       │   ├── risk.ts            # Client-side risk field math
 │       │   └── simulation.ts      # High-precision marker movement
 │       └── utils/              # Calculation helpers
-│           └── distance.ts        # Geographic distance formulas
+│           ├── distance.ts        # Geographic distance formulas
+│           └── uiTheme.ts         # UI theme utilities
 ├── saferoute.db          # SQLite database file
 ├── package.json          # Dependencies and scripts
 └── DEVELOPER.md          # Technical documentation
