@@ -24,7 +24,7 @@ import { getDistMeters } from './utils/distance';
 const App: React.FC = () => {
   // Global App State
   const [riskZones, setRiskZones] = useState<RiskZone[]>([]);
-  const [userLocation, setUserLocation] = useState<[number, number]>([40.7648, -73.9808]);
+  const [userLocation, setUserLocation] = useState<[number, number]>([11.110487, 106.616726]);
   const [statuses, setStatuses] = useState<Status[]>([]);
   const [followSimulation, setFollowSimulation] = useState(true);
   const [devMode, setDevMode] = useState(false);
