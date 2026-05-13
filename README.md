@@ -24,7 +24,7 @@ SafeRoute features a high-performance, professional dashboard designed for clari
 1. **Initialize Map**: Click "Download Real Road Data" in the sidebar to fetch the street network for your current area.
 2. **Set Route**: Click on the map to set your **Start (A)** and **Destination (B)**.
 3. **Analyze**: Review the safety metrics in the right sidebar to choose the best path.
-4. **Simulate**: Select a travel mode (Walk/Bike/Car) and hit **Start** to see the simulation in action.
+4. **Simulate**: Select a travel mode (Walk/Drone/Car) and hit **Start** to see the simulation in action.
 
 ## 🛠️ Technical Details
 

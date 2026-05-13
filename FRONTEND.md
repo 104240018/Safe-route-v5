@@ -189,7 +189,7 @@ Speed System
 Each travel mode has a base speed:
 
 Walk
-Bike
+Drone
 Car
 
 Final speed is scaled by:

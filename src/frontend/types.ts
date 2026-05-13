@@ -1,4 +1,4 @@
-export type TravelMode = 'walk' | 'bike' | 'car';
+export type TravelMode = 'walk' | 'drone' | 'car';
 export type NavStatus = 'idle' | 'navigating' | 'paused';
 export type EnvTime = 'day' | 'night';
 export type EnvWeather = 'clear' | 'rain';

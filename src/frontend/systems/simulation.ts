@@ -10,7 +10,7 @@ import { getDistMeters } from "../utils/distance";
 
 export const SPEEDS = {
   walk: 1.39, // m/s
-  bike: 11.11,
+  drone: 13.89,
   car: 16.67
 };
 

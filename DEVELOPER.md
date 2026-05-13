@@ -82,7 +82,7 @@ The application is structured into four primary functional components that commu
     - **Night Mode (Env)**: Toggles environmental time, affecting risk multipliers.
     - **Rain Mode**: Toggles weather conditions, increasing hazard levels.
 - **Simulation Suite**: 
-    - **Travel Mode Selection**: Choose between Walking (5km/h), Bike (40km/h), or Car (60km/h).
+    - **Travel Mode Selection**: Choose between Walking (5km/h), Drone (40km/h), or Car (60km/h).
     - **Speed Multiplier**: A x1 to x20 slider for accelerated simulation testing.
     - **Live Telemetry**: Displays current speed, status, and mode-specific icons.
 

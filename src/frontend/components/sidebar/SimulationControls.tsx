@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
-import { Play, Pause, Square, Bike, Car, Footprints } from 'lucide-react';
+import { Play, Pause, Square, Drone, Car, Footprints } from 'lucide-react';
 import { NavState, TravelMode, Node } from '../../types';
 
 interface SimulationControlsProps {
@@ -34,7 +34,7 @@ export const SimulationControls: React.FC<SimulationControlsProps> = ({
         {navState.status === 'idle' ? (
           <div className="space-y-3">
             <div className="grid grid-cols-3 gap-2">
-              {(['walk', 'bike', 'car'] as TravelMode[]).map(mode => (
+              {(['walk', 'drone', 'car'] as TravelMode[]).map(mode => (
                 <button
                   key={mode}
                   onClick={() => startNavigation(mode)}
@@ -42,7 +42,7 @@ export const SimulationControls: React.FC<SimulationControlsProps> = ({
                   className={`flex flex-col items-center gap-2 rounded-lg border py-3 transition-all disabled:opacity-30 ${isNightMode ? 'border-slate-800 bg-slate-900 hover:border-blue-500' : 'bg-white hover:border-blue-500'}`}
                 >
                   {mode === 'walk' && <Footprints size={16} />}
-                  {mode === 'bike' && <Bike size={16} />}
+                  {mode === 'drone' && <Drone size={16} />}
                   {mode === 'car' && <Car size={16} />}
                   <span className="text-[9px] font-bold uppercase">{mode}</span>
                 </button>
@@ -77,7 +77,7 @@ export const SimulationControls: React.FC<SimulationControlsProps> = ({
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-500 text-white animate-pulse">
                   {navState.travelMode === 'walk' && <Footprints size={14} />}
-                  {navState.travelMode === 'bike' && <Bike size={14} />}
+                  {navState.travelMode === 'drone' && <Drone size={14} />}
                   {navState.travelMode === 'car' && <Car size={14} />}
                 </div>
                 <div>

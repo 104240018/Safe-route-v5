@@ -114,7 +114,8 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`SAFEROUTE Back-End Layer active on port ${PORT}`);
+  console.log(`SAFEROUTE Back-End Layer active`);
+  console.log(`Local:   http://localhost:${PORT}`);
   });
 }
 
